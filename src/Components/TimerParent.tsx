@@ -1,7 +1,7 @@
 import { useState } from "react";
-import Timer from "./Timer";
+import { Timer } from "./Timer";
 
-function TimerParent() {
+export const TimerParent = () => {
   const [miliseg, setMiliseg] = useState(1000);
 
   return (
@@ -26,4 +26,3 @@ function TimerParent() {
   );
 }
 
-export default TimerParent;

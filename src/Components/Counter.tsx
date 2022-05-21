@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function Counter() {
+export const Counter = () => {
   const [counter, setCounter] = useState(0);
 
   const incrementar = (numero: number = 1): void => {
@@ -37,4 +37,3 @@ function Counter() {
   );
 }
 
-export default Counter;

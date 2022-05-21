@@ -5,7 +5,7 @@ interface UserInterface {
   name: string;
 }
 
-function User() {
+export const User = () => {
   const [user, setUser] = useState<UserInterface>();
   const login = () => {
     setUser({
@@ -23,6 +23,4 @@ function User() {
       {!user ? <pre>No hay usuario</pre> : <pre>{JSON.stringify(user)}</pre>}
     </div>
   );
-}
-
-export default User;
+};

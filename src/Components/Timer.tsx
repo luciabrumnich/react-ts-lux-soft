@@ -1,10 +1,10 @@
-import React, { useEffect, useState, useRef } from "react";
+import { useEffect, useState, useRef } from "react";
 
 type TimerArgs = {
   miliseg: number;
 };
 
-function Timer({ miliseg }: TimerArgs) {
+export const Timer = ({ miliseg }: TimerArgs) => {
   const [seg, setSeg] = useState(0);
   const ref = useRef<NodeJS.Timeout>();
 
@@ -22,4 +22,4 @@ function Timer({ miliseg }: TimerArgs) {
   );
 }
 
-export default Timer;
+
