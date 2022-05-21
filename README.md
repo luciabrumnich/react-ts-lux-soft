@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+<h3 align="center">🌱🌿🪴</h3>
+<h3 align="center">Writing my first lines of TypeScript.</h3>
+<h1 align="center">🌱🌿🪴</h1>
+
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
